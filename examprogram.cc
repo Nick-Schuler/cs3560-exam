@@ -3,32 +3,32 @@
 #include <fstream>
 
 using namespace std;
-/*************************************
-* countLine
+/**
+* \brief countLine counts the number of lines in a string
 *
 * @param: string pName, the function counts the lines of this string
 *
 * @return: int count, the number of lines in pName
-*************************************/
+*/
 int countLine(string pName);
 
-/*************************************
-* countChar
+/**
+* \brief countChar counts the number of chars in a string
 *
 * @param: string pName, the function counts the chars of this string
 *
-* @return: int count, the number of lines in pName
-*************************************/
+* @return: int count, the number of chars in pName
+*/
 int countChar(string pName);
 
-/*************************************
-* main, takes two arguments and passes the contents of a file into
+/**
+* \brief main, takes two arguments and passes the contents of a file into
 * a string which is then passed to countLine and countChar
 *
 * @param: argc, number of command line arguments, argv[] stores the arguments
 * 
 * 
-*************************************/
+*/
 int main(int argc, char *argv[]){
     if(argc == 1){
         cout<<countLine("Ohio University")<<" lines"<<endl;
