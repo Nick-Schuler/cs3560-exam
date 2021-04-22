@@ -1,0 +1,3 @@
+the cppcheck output did not find any issues with my program
+
+valgrind found no errors and no memory leaks as well
